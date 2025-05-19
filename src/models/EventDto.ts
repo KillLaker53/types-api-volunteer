@@ -1,4 +1,4 @@
-export interface EventPageDto {
+export interface EventDto {
     _id: string,
     eventName: string,
     eventType: string,
@@ -8,6 +8,7 @@ export interface EventPageDto {
     requirements: string[],
     funding: number,
     status: string,
+    creatorId: string,
 }
 
 export interface EventLocationDto{
